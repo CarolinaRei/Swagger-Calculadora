@@ -1,0 +1,23 @@
+{
+  "name": "calculatorswagger",
+  "version": "1.0.0",
+  "description": "Calculator using nodejs and swagger",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AfonsoAntunes/CalculatorSwagger.git"
+  },
+  "author": "Afonso Antunes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AfonsoAntunes/CalculatorSwagger/issues"
+  },
+  "homepage": "https://github.com/AfonsoAntunes/CalculatorSwagger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "swagger-ui-express": "^4.1.6"
+  }
+}

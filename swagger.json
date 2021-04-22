@@ -1,0 +1,87 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "title": "Calculator",
+      "description": "Calculator using nodejs and swagger",
+      "version": "1.0"
+    },
+    "host": "localhost:8888",
+    "basePath": "/",
+    "schemes": [
+      "http"
+    ],
+    "paths": {
+        "/sum/{a}-{b}": {
+            "get": {
+              "operationId": "SUM",
+              "parameters": [
+                {
+                  "name": "a",
+                  "in": "path",
+                  "required": true
+                },
+                {
+                  "name": "b",
+                  "in": "path",
+                  "required": true
+                }
+              ],
+              "responses": {}
+            }
+          },
+        "/subtract/{a}-{b}": {
+            "get": {
+            "operationId": "SUBTRACT",
+            "parameters": [
+                {
+                "name": "a",
+                "in": "path",
+                "required": true
+                },
+                {
+                "name": "b",
+                "in": "path",
+                "required": true
+                }
+            ],
+            "responses": {}
+            }
+        },
+      "/mult/{a}-{b}": {
+        "get": {
+          "operationId": "MULT",
+          "parameters": [
+            {
+              "name": "a",
+              "in": "path",
+              "required": true
+            },
+            {
+              "name": "b",
+              "in": "path",
+              "required": true
+            }
+          ],
+          "responses": {}
+        }
+      },
+      "/div/{a}-{b}": {
+        "get": {
+          "operationId": "DIV",
+          "parameters": [
+            {
+              "name": "a",
+              "in": "path",
+              "required": true
+            },
+            {
+              "name": "b",
+              "in": "path",
+              "required": true
+            }
+          ],
+          "responses": {}
+        }
+      }
+    }   
+}
